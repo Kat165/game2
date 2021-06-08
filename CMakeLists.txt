@@ -3,7 +3,7 @@ project(game2)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(game2 main.cpp src/Game.cpp headers/Game.h src/Player.cpp headers/Player.h src/SwagBall.cpp headers/SwagBall.h)
+add_executable(game2 main.cpp src/Game.cpp headers/Game.h src/Player.cpp headers/Player.h src/SwagBall.cpp headers/SwagBall.h src/Controls.cpp headers/Controls.h)
 
 include_directories(C:/SFML/include)
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake_modules")

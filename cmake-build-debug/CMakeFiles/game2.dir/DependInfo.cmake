@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/kasia/CLionProjects/game2/main.cpp" "C:/Users/kasia/CLionProjects/game2/cmake-build-debug/CMakeFiles/game2.dir/main.cpp.obj"
+  "C:/Users/kasia/CLionProjects/game2/src/Controls.cpp" "C:/Users/kasia/CLionProjects/game2/cmake-build-debug/CMakeFiles/game2.dir/src/Controls.cpp.obj"
   "C:/Users/kasia/CLionProjects/game2/src/Game.cpp" "C:/Users/kasia/CLionProjects/game2/cmake-build-debug/CMakeFiles/game2.dir/src/Game.cpp.obj"
   "C:/Users/kasia/CLionProjects/game2/src/Player.cpp" "C:/Users/kasia/CLionProjects/game2/cmake-build-debug/CMakeFiles/game2.dir/src/Player.cpp.obj"
   "C:/Users/kasia/CLionProjects/game2/src/SwagBall.cpp" "C:/Users/kasia/CLionProjects/game2/cmake-build-debug/CMakeFiles/game2.dir/src/SwagBall.cpp.obj"

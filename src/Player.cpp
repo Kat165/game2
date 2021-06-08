@@ -6,13 +6,11 @@ Player::Player(float x,float y) {
     this->initShape();
 }
 
-Player::~Player() {
-
-}
+Player::~Player() = default;
 
 void Player::initVariable() {
     this->movementSpeed = 5.f;
-    this->hpMax = 1;
+    this->hpMax = 10;
     this->hp = hpMax;
 }
 

@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/kasia/CLionProjects/game2/headers/Controls.h">
+			<Option target="game2"/>
+		</Unit>
 		<Unit filename="C:/Users/kasia/CLionProjects/game2/headers/Game.h">
 			<Option target="game2"/>
 		</Unit>
@@ -94,6 +97,9 @@
 			<Option target="game2"/>
 		</Unit>
 		<Unit filename="C:/Users/kasia/CLionProjects/game2/main.cpp">
+			<Option target="game2"/>
+		</Unit>
+		<Unit filename="C:/Users/kasia/CLionProjects/game2/src/Controls.cpp">
 			<Option target="game2"/>
 		</Unit>
 		<Unit filename="C:/Users/kasia/CLionProjects/game2/src/Game.cpp">

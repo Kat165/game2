@@ -169,6 +169,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\game2.dir\build.make CMakeFiles/game2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Controls.obj: src/Controls.cpp.obj
+
+.PHONY : src/Controls.obj
+
+# target to build an object file
+src/Controls.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game2.dir\build.make CMakeFiles/game2.dir/src/Controls.cpp.obj
+.PHONY : src/Controls.cpp.obj
+
+src/Controls.i: src/Controls.cpp.i
+
+.PHONY : src/Controls.i
+
+# target to preprocess a source file
+src/Controls.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game2.dir\build.make CMakeFiles/game2.dir/src/Controls.cpp.i
+.PHONY : src/Controls.cpp.i
+
+src/Controls.s: src/Controls.cpp.s
+
+.PHONY : src/Controls.s
+
+# target to generate assembly for a file
+src/Controls.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game2.dir\build.make CMakeFiles/game2.dir/src/Controls.cpp.s
+.PHONY : src/Controls.cpp.s
+
 src/Game.obj: src/Game.cpp.obj
 
 .PHONY : src/Game.obj
@@ -262,6 +289,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/Controls.obj
+	@echo ... src/Controls.i
+	@echo ... src/Controls.s
 	@echo ... src/Game.obj
 	@echo ... src/Game.i
 	@echo ... src/Game.s
